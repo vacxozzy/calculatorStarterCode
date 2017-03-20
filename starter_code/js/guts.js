@@ -6,40 +6,46 @@
 function divide(x,y)
 {
 	//Write your code below this line
-	
+	if(y === 0 ){
+	    alert("Cannot divide by 0");
+	} else {
+	    return Math.round(x/y);
+	}
 }
 
 function multiply(x,y)
 {
-	
+	return x*y;
 }
 
 function subtract(x,y)
 {
-	
+	return x-y;
 }
 
 function add(x,y)
 {
-	
+	return x+y;
 }
 
 function power(x,y)
 {
-	
+    return Math.pow(x,y);	
+    
 }
 
 function square_root(x)
 {
-	
+	return Math.round(Math.sqrt(x), 2);
+
 }
 
 function logBase10(x)
 {
-	
+	return Math.round(Math.log10(x));
 }
 
 function generateRandomNumber()
 {
-	
+	return Math.round(Math.random());
 }
